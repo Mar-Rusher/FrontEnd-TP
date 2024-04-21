@@ -4,7 +4,24 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(201, 252, 234);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+#p1 {
+    background-color: #8ecae6;
+}
+
+#p2 {
+    background-color: #219ebc;
+}
+
+#p3 {
+    background-color: #023047;
+}
+
+#p4 {
+    background-color: #ffb703;
+}
+
+#p5 {
+    background-color: #fb8500;
 }
