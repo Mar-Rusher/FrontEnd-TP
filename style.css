@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 20px;
+    
+}
+
+.menu-title {
+    padding: 30px;
+}
+
 .colors {
     display: flex;
     padding: 30px;
