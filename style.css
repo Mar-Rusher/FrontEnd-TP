@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.salida-1-text {
+    display: flex;
+}
+
 
 
 /* Aca va el testmenu */
