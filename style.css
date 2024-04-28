@@ -291,16 +291,16 @@ h2 {
 
 /* FOTOS SLIDER COLON */
 .slider-container {
-    /* display: grid; */
+    display: grid;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     
 }
   
 .slider-container img {
-    /* grid: 0 0 100%; */
+    grid: 0 0 100%;
     width: 100%;
     object-fit: cover;
     scroll-snap-align: center;
