@@ -35,9 +35,9 @@ body {
 }
 
 h2 {
-    background-color: #f0f0f0;
+    background-color: #f5cb5c;
     color: #242423;
-    height: 80px;
+    height: 70px;
     padding: 20px;
 }
 
@@ -373,33 +373,7 @@ h2 {
     padding: 30px;
 } 
 
-/* color scheme 1 */
 
-.p1 {
-    background-color: #8ecae6;
-    padding: 50px;
-}
-
-.p2 {
-    background-color: #219ebc;
-    padding: 50px;
-}
-
-.p3 {
-    background-color: #023047;
-    color: #fff;
-    padding: 50px;
-}
-
-.p4 {
-    background-color: #ffb703;
-    padding: 50px;
-}
-
-.p5 {
-    background-color: #fb8500;
-    padding: 50px;
-}
 
 /* color scheme 2 */
 
@@ -429,30 +403,3 @@ h2 {
     padding: 50px;
 }
 
-/* color scheme 3 */
-
-.p11 {
-    background-color: #320e3b;
-    padding: 50px;
-    color: #fff;
-}
-
-.p12 {
-    background-color: #4c2a85;
-    padding: 50px;
-}
-
-.p13 {
-    background-color: #6b7fd7;
-    padding: 50px;
-}
-
-.p14 {
-    background-color: #bcedf6;
-    padding: 50px;
-}
-
-.p15 {
-    background-color: #ddfbd2;
-    padding: 50px;
-}
