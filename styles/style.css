@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #e2b9f6;
+    --primary-color: #fbf8fc;
 }
 *{
     margin: 0;
@@ -10,17 +10,18 @@
 <weight>: Use a value from 400 to 900*/
 
 .playfair-display p {
-  font-family: Playfair Display, serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: Playfair Display, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .body {
-    background-image:url(../static/img/backgroundObelisco.jpg);
-    background-size:cover;
+    /* background-image:url(../static/img/backgroundObelisco.jpg);
+    background-size:cover; */
     min-height: 100vh;
     width: 100%;
+    background-color: aliceblue;
 
 }
 
@@ -49,22 +50,25 @@
 }
 .nav{
     padding: 3px;
-    /* opacity: 50%; */
-    /* background-color: rgba(255, 255, 255, 0.3); */
-    padding-top: 5px;
+    padding: 10px;
     display: flex;
+    align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
-    background: linear-gradient(to bottom, rgb(247, 118, 247),30%, rgb(243, 222, 243, 0.1));
+    background: linear-gradient(to bottom, rgb(15, 15, 15),50%, rgba(39, 31, 39, 0.3));
+    justify-content: space-between;
 
 }
 
 .nav-links{
     display: flex;
-    color:rgb(34, 34, 47);
+    color:rgb(241, 241, 249);
     list-style: none;
     gap: 100px;
-    margin-left: 400px;
+    margin-right:400px;
+    padding:0px;
+    justify-content: space-between;
+    align-items: center;
     
     
 };
@@ -75,6 +79,7 @@ a{
 
     font-weight: bold;
     text-decoration: none;
+    color: aliceblue;
 }
 
 .img{
@@ -83,9 +88,12 @@ a{
 }
 
 .main{
-    margin-left: 15px;
-    margin-top: 5px;
-    padding: 15px;
+    background-image:url(../static/img/backgroundObelisco.jpg);
+    background-size:cover;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 2px;
+    min-height:100vh;
 
 }
 .main a{
@@ -101,30 +109,41 @@ a{
 
 .titulo h1{
     text-align: center; 
-    color:rgb(95, 11, 180);
+    color:rgb(242, 236, 247);
     text-shadow: -1px -3px 20px rgb(240, 237, 237);
-    -webkit-text-stroke: 1px rgb(229, 169, 238);
+    -webkit-text-stroke: 1px rgb(12, 11, 12);
     font-size: 60px;
 }
 .titulo h2{
     text-align: center; 
     font-style: italic;
     font-size: 40px; 
-    color:rgb(154, 10, 187);
+    color:rgb(242, 236, 247);
     text-shadow: -2px -4px 30px rgb(13, 12, 12);
-    -webkit-text-stroke: 1px rgb(229, 169, 238);
+    -webkit-text-stroke: 1px rgb(12, 11, 12);
 
 }
 
-.about{
+#about{
     display: flex;
-    justify-content: end;
-    flex-direction: row;
+    flex-direction: column;
+    
+}
+#about h2{
+    font-family:playfair display;
+    font-size: 1.5em;
+}
+#about p{
+    text-align: start;
+    font-family:playfair display;
+    font-size: 0.9em ;
 }
 
 
 .footer {
-    background-color: var(--primary-color);
+
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(15, 15, 15),50%, rgba(39, 31, 39, 0.3));
     position: fixed;
     left: 0;
     bottom: 0;
@@ -132,14 +151,29 @@ a{
     width: 100%;
     z-index: 9999;
     padding: 5px;
+    text-align: center;
+}
+.footer ul{
+    display: flex;
+    color:rgb(244, 244, 246);
+    list-style: none;
+    padding:0px;
+    gap:50px;
+    text-align: center;
+    justify-content:center;
+    font-family: "Poppins", sans-serif;
+
 }
 .footer li{
     list-style: none;
+
 
 }
 .footer p{
     margin-top: 5px;
     font-size: small;
+    color: aliceblue;
+    font-weight: bold;
 }
 .main d {
     text-align: center;

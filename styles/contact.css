@@ -6,7 +6,7 @@ form {
     height: fit-content;
     width: 90%;
     font-family: cursive;
-    background-color: rgb(191, 132, 246);
+    background-color: rgb(170, 164, 177, 0.8);
     margin-left: auto;
     margin-right: auto;
     margin-top:5px;
@@ -14,7 +14,7 @@ form {
     border-radius:20px;
     padding-top: 5px;
     padding-bottom: 10px;
-    border: 2px solid #9108bf;
+    border: 2px solid #090909;
     
     
 }
@@ -42,8 +42,8 @@ form .form-control {
 .form-control input {
     height: 80%;
     width: 100%;
-    background: rgb(224, 187, 246);
-    border: 1px solid rgb(176, 2, 215);
+    background: #f4cf71;
+    border: 1px solid rgb(24, 24, 24);
     outline: none;
     border-radius: 10px;
     color: #0c0b0b;
@@ -60,6 +60,7 @@ textarea {
     padding: 1.8em 1em;
     outline: none;
     resize: none;
+    background:  #f4cf71;
 }
 .form__input--message{
     resize:none;
@@ -90,9 +91,10 @@ textarea {
 button{
     width:90px;
     height:50px;
-    background: linear-gradient(to left top, #9108bf 50%, #9c39b5 50%);
+    background: linear-gradient(to left top, #bf9408 50%, #efc45a 50%);
     border-style: none;
-    color:#fff;
+    color:#080808;
+    font-weight: bold;
     font-size: 15px;
     letter-spacing: 3px;
     font-family: 'Lato';
@@ -103,7 +105,7 @@ button{
     padding: 0px 0px 0px 0px;
     overflow: hidden;
     transition: all .5s;
-    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.2);
 }
 button span{
     position: absolute;
@@ -195,6 +197,13 @@ button:hover{
 }
 button:hover span{
     animation-play-state: paused;
+}
+#fondo{
+    background-image: url(../static/img/Laguna-Chascomus.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 
