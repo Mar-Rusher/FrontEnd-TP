@@ -1,0 +1,193 @@
+:root{
+    --primary-color: #fbf8fc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 900*/
+
+.playfair-display p {
+    font-family: Playfair Display, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body {
+    /* background-image:url(../static/img/backgroundObelisco.jpg);
+    background-size:cover; */
+    min-height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.header h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color:rgb(34, 34, 47);
+}
+#logo{
+    padding-left: 50px;
+    padding-top: 10px;
+    animation: bounce;
+    animation-duration: 3s;
+    border-radius: 50%;
+}
+#logo hover{
+    animation: bounce;
+    animation-duration: 3s infinite ;
+}
+.nav{
+    padding: 3px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(15, 15, 15),50%, rgba(39, 31, 39, 0.3));
+    justify-content: space-between;
+
+}
+
+.nav-links{
+    display: flex;
+    color:rgb(241, 241, 249);
+    list-style: none;
+    gap: 100px;
+    margin-right:400px;
+    padding:0px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+};
+a{
+    text-decoration: none;
+}
+.nav-links a{
+
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.img{
+    width: 300px;
+    
+}
+
+.main{
+    background-image:url(../static/img/backgroundObelisco.jpg);
+    background-size:cover;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 2px;
+    min-height:100vh;
+
+}
+.main a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.titulo p{
+    padding: 15px;
+    font-size:15px;
+    font-family: Playfair Display;
+
+}
+
+.titulo h1{
+    text-align: center; 
+    color:rgb(242, 236, 247);
+    text-shadow: -1px -3px 20px rgb(240, 237, 237);
+    -webkit-text-stroke: 1px rgb(12, 11, 12);
+    font-size: 60px;
+}
+.titulo h2{
+    text-align: center; 
+    font-style: italic;
+    font-size: 40px; 
+    color:rgb(242, 236, 247);
+    text-shadow: -2px -4px 30px rgb(13, 12, 12);
+    -webkit-text-stroke: 1px rgb(12, 11, 12);
+
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    
+}
+#about h2{
+    font-family:playfair display;
+    font-size: 1.5em;
+}
+#about p{
+    text-align: start;
+    font-family:playfair display;
+    font-size: 0.9em ;
+}
+
+
+.footer {
+
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(15, 15, 15),50%, rgba(39, 31, 39, 0.3));
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 5px;
+    text-align: center;
+}
+.footer ul{
+    display: flex;
+    color:rgb(244, 244, 246);
+    list-style: none;
+    padding:0px;
+    gap:50px;
+    text-align: center;
+    justify-content:center;
+    font-family: "Poppins", sans-serif;
+
+}
+.footer li{
+    list-style: none;
+
+
+}
+.footer p{
+    margin-top: 5px;
+    font-size: small;
+    color: aliceblue;
+    font-weight: bold;
+}
+.main d {
+    text-align: center;
+    background-image: url(../static/img/obeliscodebuenosaires.webp);
+    background-size:cover;
+    background-position: center;
+}
+#about {
+    width: 800px;
+    text-align: center;
+    margin:auto
+}
+.ab-image{
+    background-image: url(../static/img/backgroundObelisco.jpg);
+    background-size: cover;
+    height: 650px;;
+}
