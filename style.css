@@ -51,10 +51,23 @@ h2 {
     /* box-shadow: inset 0 0 0 2000px rgba(84, 84, 84, 0.3); */
 }
 
+.title-ninos {
+    /* background-image: url('./img/chicos-ronda.jpg'); */
+    /* background-size: cover;
+    background-position: center; */
+    height: 500px;
+    /* box-shadow: inset 0 0 0 2000px rgba(84, 84, 84, 0.3); */
+}
+
 .title h1, h2, h3 {
     text-align:center;
     padding: 20px;
 }
+
+/* .title-ninos h1, h2, h3 {
+    text-align:center;
+    padding: 20px;
+} */
 
 /* FLECHA PARA SUBIR */
 .arrow {
@@ -69,7 +82,7 @@ h2 {
 /* BARRA DE NAVEGACION */
 .menu {
     list-style-type: none;
-    background-color: #333;
+    background-color: #333533;
     padding: 10px;
     display: flex;
     justify-content: space-between;
