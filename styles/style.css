@@ -182,7 +182,7 @@ a{
     background-position: center;
 }
 #about {
-    width: 800px;
+    width: 900px;
     text-align: center;
     margin:auto
 }
@@ -190,4 +190,31 @@ a{
     background-image: url(../static/img/backgroundObelisco.jpg);
     background-size: cover;
     height: 650px;;
+}
+/* @media queries */
+/* PANTALLAS GRANDES */
+@media screen and (max-width:1920px) {
+    .main{
+        grid-template-columns: repeat(8,1fr);
+    }
+}
+
+/* TABLETS */
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+    .main{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* CELULARES */
+@media screen and (max-width: 800px) {
+    .logo{
+        display: none;
+    }
+    .main{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .nav{
+        grid-template-rows: repeat(1,1fr);
+    }
 }
