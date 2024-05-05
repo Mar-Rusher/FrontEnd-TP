@@ -9,16 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/6ea7402f69.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header id="inicio">
-        <nav class="menu">
-            <div class="menu-toggle" onclick="toggleMenu()">
-                 <span></span>
-                 <span></span>
-                 <span></span>
+    <header class="header">
+        <nav class="nav">
+            <div id="logo">
+                <img src="./img/logo.jpg" width="40px">
             </div>
-            <ul class="menu-list">
+            <!-- <div class="menu-toggle" onclick="toggleMenu()">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+            </div> -->
+            <ul class="nav-links">
                 <li><a href="./index.html" target="_blank">Inicio</a></li>
                 <li><div class="dropdown">
                         <a href="#" class="dropdown-select">Escapadas</a>
@@ -33,15 +37,10 @@
                         
                     </div>
                 </li>
-                <li><a href="#">Museos y ferias</a></li>
+                <li><a href="#">Pagina-Marlene</a></li>
                 <li><a href="./contact.html" target="_blank">Contacto</a></li>
             </ul>
         </nav>
-        <nav>
-            <div>
-                <ul></ul>
-            </div>
-        </nav> 
     </header>
     <main>
         <div class="title">
@@ -59,8 +58,7 @@
                     <img src="./img/colon-cartel.webp" width="450px">
                     <p> 
                     <h3>Naturaleza en su Esplendor</h3>
-                    Colón es bendecida con una naturaleza exuberante que te dejará sin aliento. Desde sus extensas playas sobre las costas del río Uruguay, hasta sus frondosos bosques y parques, esta ciudad ofrece un escape perfecto para quienes buscan tranquilidad y conexión con la naturaleza. No puedes perderte una visita al Parque Nacional El Palmar, hogar de los majestuosos palmares y una diversidad única de flora y fauna autóctona. <br><br>
-
+                    Colón es bendecida con una naturaleza exuberante que te dejará sin aliento. Desde sus extensas playas sobre las costas del río Uruguay, hasta sus frondosos bosques y parques, esta ciudad ofrece un escape perfecto para quienes buscan tranquilidad y conexión con la naturaleza. No puedes perderte una visita al Parque Nacional El Palmar, hogar de los majestuosos palmares y una diversidad única de flora y fauna autóctona. <br>
                     <h3>¡Ven a Descubrir Colón y Vive una Experiencia Inolvidable!</h3>
                     </p>
                 </div>
@@ -102,8 +100,7 @@
                     <img src="./img/sierra-de-la-ventana-rocas.jpg" width="400px">
                     <p>
                     <h3>Montañas Majestuosas y Naturaleza Virgen</h3>
-
-                        Sierra de la Ventana es un paraíso para los amantes del aire libre y la naturaleza. Sus imponentes sierras ofrecen un paisaje espectacular, ideal para la práctica de actividades como senderismo, trekking y escalada. Descubre cascadas escondidas, cañadones profundos y miradores panorámicos que te dejarán sin aliento. Además, el Parque Provincial Ernesto Tornquist es un tesoro natural que alberga una diversidad única de flora y fauna autóctona.
+                    Sierra de la Ventana es un paraíso para los amantes del aire libre y la naturaleza. Sus imponentes sierras ofrecen un paisaje espectacular, ideal para la práctica de actividades como senderismo, trekking y escalada. Descubre cascadas escondidas, cañadones profundos y miradores panorámicos que te dejarán sin aliento.
                     </p> 
                 </div>
                 <div class="grid-item">
@@ -135,7 +132,7 @@
                     </div>
                     <p>   
                         <h3>Aventura y Deportes Extremos</h3>
-                        ¿Buscas emociones fuertes? Sierra de la Ventana tiene algo para ti. Embárcate en emocionantes excursiones de rappel y tirolesa que te llevarán a descubrir los rincones más inaccesibles de la región. También puedes practicar mountain bike en los senderos escarpados de las sierras o disfrutar de la emoción del parapente mientras sobrevuelas el paisaje montañoso. Además, no te pierdas la oportunidad de descubrir las antiguas construcciones de piedra que se encuentran dispersas por las sierras, como el famoso Castillo de los Cóndores, una mansión abandonada que evoca misterios del pasado.
+                        ¿Buscas emociones fuertes? Sierra de la Ventana tiene algo para ti. Embárcate en emocionantes excursiones de rappel y tirolesa que te llevarán a descubrir los rincones más inaccesibles de la región. También puedes practicar mountain bike en los senderos escarpados de las sierras o disfrutar de la emoción del parapente mientras sobrevuelas el paisaje montañoso. 
                     </p>
                 </div>
             </div>
@@ -150,24 +147,23 @@
                     <p>
                         <h3>Descubre la Belleza Natural y la Historia de Tandil, Buenos Aires</h3>
                         Bienvenido a Tandil, un destino único que combina paisajes naturales impresionantes, historia fascinante y una vibrante cultura local. Situada en el corazón de las sierras bonaerenses, esta ciudad cautiva a sus visitantes con su encanto rústico y su ambiente acogedor.  Descubre cascadas ocultas, bosques de ensueño y miradores panorámicos que te dejarán sin aliento. El Parque Independencia es un lugar perfecto para relajarse y disfrutar de un día al aire libre en familia.
-                        <img src="./img/tandil-sierra-del-tigre.jpg" alt="Tandil, Sierra del Tigre" width="400px"><br><br>
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <p>
-                        <h3>Historia, Cultura y Gastronomia</h3>
-                        Sumérgete en la rica historia y la cultura de Tandil explorando su casco histórico para descubrir antiguas casonas y monumentos. No te pierdas la oportunidad de visitar el Monumento al Fundador, que rinde homenaje a los primeros pobladores de la ciudad.
-                        <br><img src="./img/tandil-picada.jpg" alt="" width="200px"><br>  
-                        La gastronomía de Tandil es una celebración de los sabores regionales y los productos locales. No puedes dejar de probar las famosas picadas tandileras, una deliciosa selección de fiambres y quesos artesanales acompañados de pan casero. 
+                        <img src="./img/tandil-sierra-del-tigre.jpg" alt="Tandil, Sierra del Tigre" width="400px"><br>
                     </p>
                 </div>
                 <div class="grid-item">
                     <p><h3>Reserva Sierra del Tigre</h3> 
                         A pocos kilómetros de Tandil se encuentra la Reserva Natural Sierra del Tigre, un paraíso para los amantes del senderismo y el ecoturismo. Sus imponentes sierras, arroyos cristalinos y bosques de pinos ofrecen un escenario espectacular para la práctica de actividades al aire libre como senderismo, trekking, escalada y mountain bike.
                         Esta reserva ofrece una variedad de senderos que serpentean a través del paisaje montañoso, brindando vistas panorámicas impresionantes en cada paso del camino.
-                    </p><br><br><img src="./img/tandil-roca.jpg" alt="Tandil, roca" width="450px">
+                    </p><br><img src="./img/tandil-roca.jpg" alt="Tandil, roca" width="400px">
                 </div>
-                
+                <div class="grid-item">
+                    <p>
+                        <h3>Historia, Cultura y Gastronomia</h3>
+                        Sumérgete en la rica historia y la cultura de Tandil explorando su casco histórico para descubrir antiguas casonas y monumentos.
+                        <br><img src="./img/tandil-picada.jpg" alt="" width="200px"><br>  
+                        La gastronomía de Tandil es una celebración de los sabores regionales y los productos locales. No puedes dejar de probar las famosas picadas tandileras, una deliciosa selección de fiambres y quesos artesanales acompañados de pan casero. 
+                    </p>
+                </div>
                 <div class="grid-item">
                     <p>
                         <h3>¡Ven y Descubre Tandil, un Tesoro por Descubrir en Buenos Aires!</h3>
@@ -227,16 +223,16 @@
         </section>
         <section id="salida-5">
             <h2>5. Colonia del Sacramento, Uruguay</h2> <br>
-            <div class="grid-container">
+            <div class="grid-container-uy">
                 <img src="./img/colonia-uy-lighthouse.jpg" alt="">
-                <div class="grid-item">
+                <div class="grid-item-uy">
                     <p>
                         <h3>Descubre la Encantadora Colonia del Sacramento y su Historia Colonial</h3>
                         Colonia del Sacramento, declarada Patrimonio de la Humanidad por la UNESCO es un destino imperdible para los amantes de la historia, la arquitectura y la cultura.
                         El corazón de Colonia del Sacramento es su encantadora Ciudad Vieja, donde encontrarás una mezcla única de arquitectura colonial portuguesa y española, que te transporta a tiempos coloniales con sus calles empedradas, edificios históricos como el Faro de Colonia, la Basílica del Santísimo Sacramento y el Puente Levadizo. 
                     </p>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item-uy">
                     <p>
                         <h3>Prueba la Deliciosa Gastronomía Local</h3>
 
@@ -244,15 +240,15 @@
                         <img src="./img/colonia-uy-terras.jpg" alt="Colonia, terras" width="400px">
                     </p>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item-uy">
                 <p>
                     <h3>Cómo Llegar desde Buenos Aires</h3>
 
                     Para llegar a Colonia del Sacramento desde Buenos Aires, puedes tomar un ferry desde el Puerto de Buenos Aires hasta el Puerto de Colonia. <br><br><br> <img src="./img/colonia-express.jpg" alt="" width="300px" height="150px"> <br><br><br>Los ferrys operan regularmente durante todo el año y el viaje tiene una duración aproximada de una hora. Una vez en Colonia, puedes explorar la ciudad a pie o en bicicleta, ya que es un destino muy caminable y fácil de recorrer.
-                    Colonia del Sacramento te espera con su encanto colonial, su rica historia y su atmósfera relajada. Con sus calles empedradas, sus impresionantes vistas al río y su deliciosa gastronomía, esta ciudad histórica es el destino perfecto para una escapada inolvidable desde Buenos Aires.
+                    Esta ciudad histórica es el destino perfecto para una escapada inolvidable desde Buenos Aires.
                 </p>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item-uy">
                     <img src="./img/colonia-uy-puente.jpg" alt="Colonia, puente" width="600px"><br><br>
                     <!-- <img src="./img/colonia-uy-rio.avif" alt="Colonia, rio" width="600px"> -->
                     <img src="./img/colonia-oldtown.jpg" alt="Colonia, oldtown" width="600px">
@@ -270,8 +266,7 @@
                 <div class="grid-item-mdp">
                     <p>
                         <h3>¡Disfruta de Mar del Plata y sus Encantadores Alrededores en la Costa Argentina!</h3>
-                        Mar del Plata, conocida como la <b><i>"Perla del Atlántico"</i></b> , es uno de los destinos turísticos más populares de Argentina,  Con su combinación de playas doradas, una rica vida cultural y una variedad de actividades al aire libre.
-                        Desde surf y windsurf hasta kitesurf y jet ski, hay actividades acuáticas para todos los niveles de habilidad y experiencia. <br> <br>
+                        Mar del Plata, conocida como la <b><i>"Perla del Atlántico"</i></b> , es uno de los destinos turísticos más populares de Argentina, con su combinación de playas doradas, una rica vida cultural y una variedad de actividades al aire libre. <br>
                         <div class="gallery-item">
                             <img src="./img/Mar-del-Plata-vista.jpg"  width="400px">
                         </div>
@@ -282,14 +277,10 @@
                 <div class="grid-item-mdp">
                     <p>
                         <h3>Gastronomía Costera</h3>
-
-                        La gastronomía de Mar del Plata es una delicia para los amantes del buen comer, con una amplia variedad de restaurantes que ofrecen platos tradicionales y mariscos frescos. No puedes dejar de probar las famosas rabas (calamares fritos), los frutos de mar frescos y las deliciosas empanadas. No puede faltar comer deliciosos churros en la playa! <br> <br>
-
-                       
+                        La gastronomía de Mar del Plata es una delicia para los amantes del buen comer, con una amplia variedad de restaurantes que ofrecen platos tradicionales y mariscos frescos. No puedes dejar de probar las famosas rabas (calamares fritos)<br>
                     </p>
                     <p>
                         <h3>Cultura y Entretenimiento</h3>
-
                         La ciudad de Mar del Plata ofrece una rica vida cultural, con una variedad de teatros, museos, galerías de arte y eventos culturales durante todo el año. No te pierdas la oportunidad de visitar el icónico Teatro Colón, el Museo de Arte Contemporáneo MAR o el Museo del Puerto. <br> <br>
                         Además, Mar del Plata es conocida por su vibrante vida nocturna, con una amplia selección de bares, pubs y discotecas para disfrutar hasta altas horas de la madrugada. Esta ciudad costera tiene algo para todos los gustos y presupuestos.
                 </div>
@@ -328,11 +319,11 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#inicio">Inicio</a></li>
+            <div class="nav-links-footer-container">
+                <ul class="nav-links-footer">
+                    <li><a href="#header">Inicio</a></li>
                     <li><a href="#salida-1">Colon</a></li>
                     <li><a href="#salida-2">Siera de la Ventana</a></li>
                     <li><a href="#salida-3">Tandil</a></li>
@@ -342,7 +333,22 @@
                 </ul>
             </div>
         </nav>
+        <ul class="">
+            <li>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </li>
+            <li>
+                <i class="fa fa-facebook-square"
+                        aria-hidden="true"></i>
+            </li>
+            <li> <i class="fa-brands fa-square-whatsapp"></i>
+            </li>
+        </ul>
+        <div>
+            <p style="text-align: center"> Copyright © Todos los derechos reservados Buenos Aires Tur</p>
+            <p style="text-align: center">Hecho con <i class="fa fa-heart" aria-hidden="true"></i> por Margje, Marlene e Isa </p>
+        </div>
     </footer>
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
