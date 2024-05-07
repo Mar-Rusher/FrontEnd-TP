@@ -82,9 +82,19 @@
                             <option value="Uruguay" id="UY">Uruguay</option>
                             <option value="Venezuela" id="VE">Venezuela</option>
                 </div>
-                <div class="form-control">
-                    <textarea class="form-input-message" id="message" placeholder="Dejanos tu mensaje..." required>
-                    </textarea>
+                <div>
+                    <label class="gender-label">
+                      <input type="radio" class="gender-input" name="gender" value="male">
+                      <span class="gender-custom-radio"><span class="gender-inner-dot"></span></span>Hombre
+                    </label>
+                    <label class="gender-label">
+                      <input type="radio" class="gender-input" name="gender" value="female">
+                      <span class="gender-custom-radio"><span class="gender-inner-dot"></span></span>Mujer
+                    </label>
+                    <label class="gender-label">
+                      <input type="radio" class="gender-input" name="gender" value="other">
+                      <span class="gender-custom-radio"><span class="gender-inner-dot"></span></span>Otra
+                    </label>
                 </div>
                 <div class="wrapper form-control">
                     <button type="button"  id="btn-send">Enviar<span></span><span></span>
