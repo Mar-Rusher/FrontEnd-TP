@@ -172,6 +172,12 @@ h2 {
     width: 100%;
 }
 
+#adventure-1, #adventure-2, #adventure-3, #adventure-4, #adventure-5, #adventure-6, #adventure-7, #adventure-8, #adventure-9{
+    background: linear-gradient(to bottom, #b8c0bc,50%, white);
+    width: 100%;
+}
+
+
 
 /* FOTO SLIDESHOW SIERRA DE LA VENTANA */
 .slideshow-container {
