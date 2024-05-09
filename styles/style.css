@@ -1,41 +1,41 @@
-:root{
-    --primary-color: #fbf8fc;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 400 to 900*/
-
-.playfair-display p {
-    font-family: Playfair Display, serif;
-    font-optical-sizing: auto;
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+  
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+  
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 
-.body {
-    /* background-image:url(../static/img/backgroundObelisco.jpg);
-    background-size:cover; */
+body {
     min-height: 100vh;
     width: 100%;
     background-color: aliceblue;
 }
 
-.header{
+
+header{
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 9999;
 }
-.header h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
-    color:rgb(34, 34, 47);
-}
 #logo{
     padding-left: 50px;
     padding-top: 10px;
@@ -52,10 +52,10 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     background: linear-gradient(to bottom, rgb(15, 15, 15),50%, rgba(39, 31, 39, 0.3));
     justify-content: space-between;
+
 }
 
 .nav-links{
@@ -67,6 +67,7 @@
     padding:0px;
     justify-content: space-between;
     align-items: center;
+    font-family: "Poppins", sans-serif;
     
     
 };
@@ -75,9 +76,15 @@ a{
 }
 .nav-links a{
 
-    font-weight: bold;
-    text-decoration: none;
-    color: aliceblue;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: transparent;
+    transition: 1s;
+}
+.nav-links a:hover{
+    color: #f5cb5c;
+    text-decoration-color: #f5cb5c;
 }
 
 .img{
@@ -109,15 +116,15 @@ a{
     text-align: center; 
     color:rgb(242, 236, 247);
     text-shadow: -1px -3px 20px rgb(240, 237, 237);
-    -webkit-text-stroke: 1px rgb(12, 11, 12);
+    -webkit-text-stroke: 2px rgb(12, 11, 12);
     font-size: 60px;
+    font-family: Playfair Display, serif;
 }
 .titulo h2{
     text-align: center; 
     font-style: italic;
     font-size: 40px; 
     color:rgb(242, 236, 247);
-    text-shadow: -2px -4px 30px rgb(13, 12, 12);
     -webkit-text-stroke: 1px rgb(12, 11, 12);
 }
 
@@ -127,16 +134,6 @@ a{
     width: 900px;
     text-align: center;
     margin:auto
-}
-
-#about h2{
-    font-family:playfair display;
-    font-size: 1.5em;
-}
-#about p{
-    text-align: start;
-    font-family:playfair display;
-    font-size: 0.9em ;
 }
 
 
