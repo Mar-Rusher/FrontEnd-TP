@@ -25,6 +25,7 @@ body {
     min-height: 100vh;
     width: 100%;
     background-color: aliceblue;
+    margin-bottom: 90px;
 }
 
 
@@ -128,13 +129,6 @@ a{
     -webkit-text-stroke: 1px rgb(12, 11, 12);
 }
 
-#about {
-    display: flex;
-    flex-direction: column;
-    width: 900px;
-    text-align: center;
-    margin:auto
-}
 
 
 .footer {
@@ -178,11 +172,6 @@ a{
     background-position: center;
 }
 
-.ab-image{
-    background-image: url(../static/img/backgroundObelisco.jpg);
-    background-size: cover;
-    height: 650px;;
-}
 /* @media queries */
 /* PANTALLAS GRANDES */
 @media screen and (max-width:1920px) {
@@ -210,3 +199,5 @@ a{
         grid-template-rows: repeat(1,1fr);
     }
 }
+
+ 
