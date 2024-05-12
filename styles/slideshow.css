@@ -145,12 +145,17 @@ transition: opacity 500ms;
 position: absolute;
 }
 
-.description {
-position: absolute;
-line-height: inherit;
-object-fit: contain;
-font-size: 10px;
-font-weight: bold;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-shadow: -1px -3px 20px rgb(240, 237, 237);
+
+
+.infoSlideContainer{
+    margin-bottom: 60px;
+    margin-top:0px;
+	padding-left: 150px;
+	padding-right: 150px;
+    padding-top: 0;
+    background-color:#e3eceb;
+	max-width: 100%;
+}
+.infoSlideContainer h2 {
+    color:black;
 }
