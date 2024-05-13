@@ -371,7 +371,17 @@ button:hover span{
     color: white;
 }
 
-
+#logo{
+    padding-left: 50px;
+    padding-top: 10px;
+    animation: bounce;
+    animation-duration: 3s;
+    border-radius: 50%;
+}
+#logo hover{
+    animation: bounce;
+    animation-duration: 3s infinite ;
+}
 
 
 
