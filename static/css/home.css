@@ -89,8 +89,7 @@ a{
 }
 
 .img{
-    width: 300px;
-    
+    width: 100%;
 }
 
 .main{
@@ -100,7 +99,7 @@ a{
     margin-top: 0px;
     padding: 2px;
     min-height:100vh;
-
+    width:100%;
 }
 .main a{
     text-decoration: none;
@@ -128,7 +127,6 @@ a{
     color:rgb(242, 236, 247);
     -webkit-text-stroke: 1px rgb(12, 11, 12);
 }
-
 
 
 .footer {
@@ -165,30 +163,11 @@ a{
     color: aliceblue;
     font-weight: bold;
 }
-.main d {
-    text-align: center;
-    background-image: url(../static/img/obeliscodebuenosaires.webp);
-    background-size:cover;
-    background-position: center;
-}
+
 
 /* @media queries */
-/* PANTALLAS GRANDES */
-@media screen and (max-width:1920px) {
-    .main{
-        grid-template-columns: repeat(8,1fr);
-    }
-}
-
-/* TABLETS */
-@media screen and (min-width: 800px) and (max-width: 1023px) {
-    .main{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
 /* CELULARES */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
     .logo{
         display: none;
     }
@@ -196,7 +175,30 @@ a{
         grid-template-columns: repeat(1,1fr);
     }
     .nav{
-        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+    .body{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* TABLETS */
+@media screen and (min-width: 641px) and (max-width: 1280px) {
+    .main{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .body{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+/* PANTALLAS GRANDES */
+@media screen and (min-width: 1281px) {
+    .main{
+        grid-template-columns: repeat(5,1fr);
+    }
+    .body{
+        grid-template-columns: repeat(5,1fr);
     }
 }
 

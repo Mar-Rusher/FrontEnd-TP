@@ -19,16 +19,7 @@
 	box-sizing: border-box;
 }
 
-/* .slideshow-title {
-	font-family: 'Allerta Stencil';
-	font-size: 62px;
-	color: #fff;
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 25%;
-	letter-spacing: 3px;
-	font-weight: 300;
-} */
+
 
 .sub-heading {
 	padding-top: 50px;
@@ -123,9 +114,7 @@
 	transform: scale(1.2);
 	transition: all 300ms;
 }
-/* .content-carrousel img:hover .description{
-	visibility: visible;
-} */
+
 
 @keyframes rotar {
 	from {
@@ -186,4 +175,49 @@ position: absolute;
     border-radius: 14px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* @media queries */
+/* CELULARES */
+@media screen and (max-width: 800px) {
+    .logo{
+        display: none;
+    }
+    .main{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .nav{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* TABLETS */
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+    .main{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* PANTALLAS GRANDES */
+@media screen and (min-width: 1024px) {
+    .main{
+        grid-template-columns: repeat(9,1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #slideshow{
+		grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+    #slideshow{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #slideshow{
+        grid-template-columns: repeat(9,1fr);
+    }
 }
