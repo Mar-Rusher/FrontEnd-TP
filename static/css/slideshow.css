@@ -156,9 +156,11 @@ position: absolute;
 	right: 20%;
 	text-decoration: none;
 	color:#ecf80a;
-	font-weight: bold;
-    -webkit-text-stroke: 0.7px rgb(12, 11, 12);
+	-webkit-text-stroke: 0.7px rgb(12, 11, 12);
 
+}
+.enlace {
+	font-weight: bold;
 }
 
 .gridInfo-container {
