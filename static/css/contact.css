@@ -97,7 +97,7 @@ form {
     grid-auto-columns: 100%;
     max-width: 550px;
     height: 600px;
-    background-image: url(../static/img/abstract-yellow-darkgrey.jpg);
+    background-image: url(./img/abstract-yellow-darkgrey.jpg);
     margin-left: auto;
     margin-right: auto;
     border-radius:25px;
