@@ -85,7 +85,7 @@ h2 {
 /* BANNER */
 
 .title {
-    background-image: url('./static/img/jump-girl-travel.jpg');
+    background-image: url('../img/jump-girl-travel.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
